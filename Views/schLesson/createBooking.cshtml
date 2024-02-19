@@ -1,0 +1,45 @@
+﻿@model LessonBooking
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+    <link href="~/css/new.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h2>Here you can schedule a new lesson</h2>
+    
+    <div class="createBooking">
+        <form asp-action="Add">
+            Name <br />
+            @Html.EditorFor(f => f.name)<br /> 
+            Tel <br />
+            @Html.EditorFor(f => f.mobilnummber)<br />
+            Place <br />
+            @Html.EditorFor(f => f.place)<br />
+            Time <br />
+            @Html.EditorFor(f => f.time)<br />
+            
+            <input type="submit" id="btn9" value="Create a new lesson" />
+
+            
+           
+        </form>
+
+        <div class="btn7">
+            <a asp-action="showLesson" asp-controller="schLesson">Click here to go to the booked lessons list</a> <br />
+            <a asp-action="loggedin" asp-controller="Loggedin">Click here to go to the main site</a>
+
+           
+        </div>
+       
+        
+    </div>
+
+   
+   
+    
+  
+</body>
+</html>

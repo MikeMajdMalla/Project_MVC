@@ -1,0 +1,67 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap");
+
+@font-face {
+    font-family: dt;
+    src: url(font/Dreamsoftheatre-5Vja.ttf);
+}
+
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: dt;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 70%;
+    padding-left: 150px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../imeges/gearbg5.jpg');
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 15px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+}
+
+input[type="submit"] {
+    background-color: rgb(148, 50, 150);
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 15px;
+    transition: 0.6s ease;
+}
+
+    input[type="submit"]:hover {
+        background-color: #8c45a0;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#head {
+    color: rgb(225, 215, 15);
+}

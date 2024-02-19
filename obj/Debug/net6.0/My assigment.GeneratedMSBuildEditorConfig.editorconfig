@@ -1,0 +1,44 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = My_assigment
+build_property.RootNamespace = My_assigment
+build_property.ProjectDir = D:\My assigment\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\My assigment
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/My assigment/Views/contactForm/keepInTouch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29udGFjdEZvcm1ca2VlcEluVG91Y2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My assigment/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My assigment/Views/Loggedin/loggedin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nZ2VkaW5cbG9nZ2VkaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My assigment/Views/schLesson/createBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2NoTGVzc29uXGNyZWF0ZUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My assigment/Views/schLesson/showLesson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2NoTGVzc29uXHNob3dMZXNzb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My assigment/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My assigment/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,43 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact me</title>
+    
+   
+    <link href="~/css/contact.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 id="head">This is a form to contact me <br>in order to book a lesson with me </h1>
+
+    <div class="container">
+        <form action="index.php">
+            <label for="fname">Your Name</label>
+            <input id="tha" type="text" name="name" placeholder="Your name..">
+
+            <label for="lname">Lesson time </label>
+            <input type="text" id="lname" name="lessonTime" placeholder="Lesson time">
+
+
+
+
+
+            <textarea id="subject" name="subject" placeholder="Write to me how I can help you" style="height:200px"></textarea>
+
+
+           
+            <input type="submit" a asp-action="Index" asp-controller="Home"> 
+
+            
+
+        </form>
+
+    </div>
+
+</body>
+
+
+
+
+</html>
